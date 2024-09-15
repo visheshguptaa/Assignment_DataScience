@@ -1,0 +1,37 @@
+Model Comparison ->
+
+
+1. Logistic Regression:
+
+Pros: Easy to interpret, fast to train, and performs reasonably well in detecting fraudulent transactions.
+Cons: Has lower recall and precision compared to tree-based models. It assumes a linear relationship between features and the target variable.
+Use Case: Suitable for cases where interpretability is important, but may not be ideal for highly imbalanced or complex datasets.
+
+2. Random Forest:
+
+Pros: Performs significantly better than Logistic Regression with higher precision and recall.
+Cons: Slower to train and predict compared to Logistic Regression, especially with large datasets.
+Use Case: A good balance between performance and interpretability. Suitable for datasets with non-linear relationships and some level of complexity.
+
+3. XGBoost:
+
+Pros: The best performance in terms of accuracy, precision, recall, and AUC-ROC. XGBoost is highly efficient and can handle class imbalance and complex data patterns.
+Cons: Slightly more complex to tune, but with techniques like GridSearchCV or RandomizedSearchCV, it can be optimized effectively.
+Use Case: The best choice when maximum performance is needed, especially for highly imbalanced datasets like fraud detection.
+
+
+Conclusion ->
+Which Model is More Suitable?
+
+
+XGBoost is the most suitable model for detecting fraudulent transactions:
+
+1. It has the highest AUC-ROC, indicating it is excellent at distinguishing between fraud and legitimate transactions.
+2. Its high recall makes it effective at minimizing the number of missed fraud cases.
+3. While slightly more complex to tune, its performance gains make it the most reliable option in this case.
+4. Random Forest is a close second and might be chosen if interpretability is important, or if training time is a factor.
+
+
+
+
+
