@@ -1,0 +1,45 @@
+Data Science Assignment : Fraud Detection
+
+Problem Statement: Credit Card Transaction Fraud Detection
+
+You are provided with a simulated credit card transaction dataset containing both
+legitimate and fraudulent transactions. The dataset spans a duration of two years,
+covering transactions made between January 1, 2019, and December 31, 2020. It includes
+records for 1000 customers performing transactions with a pool of 800 merchants.
+The task is to build a model that can accurately detect fraudulent transactions based on
+the available transaction data. The challenge involves understanding the transaction
+patterns of legitimate and fraudulent behavior and applying machine learning
+techniques to classify future transactions as fraudulent or non-fraudulent.
+Dataset Information
+
+● The dataset contains multiple features related to the transaction (e.g., transaction
+amount, merchant, customer demographics, and transaction category).
+● The data has been generated using a simulation tool that applies various profiles
+(e.g., demographic and geographical characteristics) to create realistic customer
+transaction behavior.
+● Each transaction is labeled as either "fraud" or "legitimate."
+Assignment Task ->
+
+1. Exploratory Data Analysis (EDA):
+○ Perform a detailed analysis of the dataset to understand the distribution of
+features, identify missing or anomalous values, and detect patterns that
+may indicate fraud.
+○ Visualize key insights from the data, such as the distribution of
+transaction amounts, time-based patterns, and fraud detection rates.
+
+2. Data Preprocessing:
+○ Handle any missing or inconsistent data.
+○ Apply appropriate feature engineering techniques to improve model
+performance (e.g., deriving new features or aggregating information).
+
+3. Model Building:
+○ Implement various machine learning models (e.g., logistic regression,
+decision trees, random forest, gradient boosting, or deep learning
+techniques) to predict fraudulent transactions.
+○ Tune the models to optimize performance using appropriate metrics (e.g.,
+accuracy, precision, recall, F1-score, and AUC-ROC).
+
+4. Evaluation and Conclusion:
+○ Evaluate model performance on a test dataset.
+○ Compare the performance of different models and discuss which model is
+more suitable for detecting fraudulent transactions and why.
